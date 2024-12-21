@@ -3,13 +3,11 @@
 
 <div align="center">
 
-![Loading Awesomeness](https://media.giphy.com/media/JIXSXG8gP9sL5taG9Y/giphy.gif)
+![Jumping for Joy](https://media.giphy.com/media/l4FGusZ5L62C8XySu/giphy.gif)
 
 [![Made with coffee and memes](https://img.shields.io/badge/Made%20with-☕%20&%20Memes-pink.svg?style=for-the-badge)](/)
 [![Powered by Wine and Magic](https://img.shields.io/badge/Powered%20by-Wine%20and%20Magic-red.svg?style=for-the-badge)](/)
 [![100% Failure Rate](https://img.shields.io/badge/100%25-Failure%20Rate%20Guaranteed-yellow.svg?style=for-the-badge)](/)
-[![Caused by Cats](https://img.shields.io/badge/Caused%20by-Cats%20😼-orange.svg?style=for-the-badge)](/)
-[![Time to Rice](https://img.shields.io/badge/Time%20to-Rice%20🍚-blue.svg?style=for-the-badge)](/)
 
 *Buckle up and prepare for the rollercoaster of limitless humor, tech wizardry, and the journey of a lifetime!*
 
@@ -23,6 +21,7 @@
 5. [🆘 Troubleshooting: Fixing Errors While Living Your Best Life](#-troubleshooting-fixing-errors-while-living-your-best-life)
 6. [🎉 The Grand Finale: Show Off Your Masterpiece!](#-the-grand-finale-show-off-your-masterpiece)
 7. [🃏 Ultimate Meme Templates and GIFs Galore](#-ultimate-meme-templates-and-gifs-galore)
+8. [😂 Bonus: Funny Commands to Make You Chuckle](#-bonus-funny-commands-to-make-you-chuckle)
 
 ## 🤔 What on Earth Is This? 
 
@@ -36,6 +35,12 @@ Sick of the same old dusty desktop? Want to transform your Ubuntu into a dazzlin
 - 🎨 Colors that make your eyes feel like they’re in a rainbow factory explosion.
 - ⚡ Performance faster than a cheetah on roller skates.
 - 🧠 Bragging rights that’ll have your friends shaking their heads in disbelief!
+
+<div align="center">
+
+![Excited Cats](https://media.giphy.com/media/JIXSXG8gP9sL5taG9Y/giphy.gif)
+
+</div>
 
 ## 🎯 Prerequisites: Your Checklist to Awesomeness
 
@@ -231,7 +236,7 @@ Want to level up how you communicate your tech struggles and victories? Here are
 
 | Meme Theme                | Template Link                                                          |
 |---------------------------|------------------------------------------------------------------------|
-| **Disaster at 3 AM** | ![3 AM](https://i.imgur.com/FEw8JxG.png) – Caption this with any tragic coding adventure. |
+| **Disaster at 3 AM** | ![This is Fine](https://media.giphy.com/media/3o7btN5KkXAUSMxyug/giphy.gif) – Example caption: "When you realize you forgot to backup." |
 | **Is This a Meme?**  | ![Is This a Pigeon?](https://i.imgflip.com/1mnx7d.jpg) – Perfect for when you crash your desktop yet again. |
 | **Roll Safe**         | ![Roll Safe](https://i.imgur.com/SaxsIKc.jpg) – Use this to remind your friends why they should back up! |
 | **Success Kid**       | ![Success Kid](https://media.giphy.com/media/TlGqybpPikamG/giphy.gif) – Celebrate your successful install.  |
@@ -282,6 +287,58 @@ Stand up, take a bow! 🎉 You’ve crafted a technical marvel—whet your appet
 
 ---
 
+## 😂 Bonus: Funny Commands to Make You Chuckle
+
+Need some humor in your terminal? Try these funny commands for a good laugh:
+
+1. **Cowsay** (Because who doesn’t like a talking cow?):
+   ```bash
+   sudo apt install cowsay
+   cowsay "I’m not moo-ving until you install Hyprland!"
+   ```
+
+   ![Cowsay](http://i.imgur.com/Zc7A5n5.png)
+
+2. **Fortune Cookie** (Random wisdom for you!):
+   ```bash
+   sudo apt install fortune
+   fortune | cowsay
+   ```
+
+   ![Fortune](https://media.giphy.com/media/3o6Zt2q3Lzel2f4oVq/giphy.gif)
+
+3. **Sl command** (Because typing "ls" isn’t amusing enough):
+   ```bash
+   sudo apt install sl
+   sl
+   ```
+   ![Train](https://media.giphy.com/media/lX0ajxkw8G4Xm/giphy.gif)
+
+4. **Toilet** (Text art with boldness):
+   ```bash
+   sudo apt install toilet
+   toilet -f smblock "Hello, Ubuntu!"
+   ```
+
+   ![Toilet Text](https://media.giphy.com/media/l0HlV2gjrSRCCy0bG/giphy.gif)
+
+5. **WTF** (The command you never knew you wanted):
+   ```bash
+   sudo apt install wtf
+   wtf
+   ```
+
+   ![WTF](https://media.giphy.com/media/3ohhwI5i3kXnSedB6I/giphy.gif)
+
+6. **LOLcat** (Text and rainbow magic):
+   ```bash
+   sudo apt install lolcat
+   echo "These commands make me smile!" | lolcat
+   ```
+   ![LOLcat](https://media.giphy.com/media/3ov9jUkR0gA6FFrnG4/giphy.gif)
+
+---
+
 <div align="center">
 
 ## 🌟 The END!
@@ -292,12 +349,8 @@ Stand up, take a bow! 🎉 You’ve crafted a technical marvel—whet your appet
 If anyone asks how you made your desktop look better than theirs, just wink and say:
 > “I’m not saying it was aliens… but they totally gave me their style secrets! 👽😂”
 
+</div>
+
 ---
 
-<div align="center">
-
-Made with 💖, 🎮, and an endless supply of ☕ and 🤣 
-
-*Now go forth, spread joy, and unveil your spectacular desktop to the world while getting a good laugh each step of the way!* 
-
-</div>
+Made with 💖, 🎮, and an endless supply of ☕ and 🤣. Now go forth, spread joy, and unveil your spectacular desktop to the world while getting a good laugh each step of the way!

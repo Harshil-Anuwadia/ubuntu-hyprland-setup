@@ -1,205 +1,130 @@
-Here's the updated README.md with all the content in plain text format as well as markdown:
+# 🌟 Hyprland Ubuntu Dotfiles Setup Guide
 
-# Hyprland Ubuntu Dotfiles
+Welcome to the collection of dotfiles optimized for a clean, efficient Wayland setup using Hyprland, Waybar, Kitty, Neovim, Fish, and more. These dotfiles are designed to provide a fully functional, aesthetically pleasing, and efficient environment for users of Ubuntu 24.04 with Wayland compositors. The setup aims to enhance productivity and streamline your environment. 🚀
 
-This repository contains a collection of dotfiles optimized for a clean, efficient Wayland setup using **Hyprland**, **Waybar**, **Kitty**, **Neovim**, **Fish**, and more, designed for **Ubuntu 24.04**. The goal of these dotfiles is to provide a fully functional, aesthetically pleasing, and efficient environment for users of Ubuntu with **Wayland** compositors.
+## 🛠️ Installation Guide
 
-This guide will walk you through the process of installing and setting up these dotfiles on your system, and help you customize your Ubuntu 24.04 environment to maximize your productivity and user experience.
+### Step 1: Install Dependencies
 
----
+Before applying the dotfiles, ensure that you have all the required dependencies installed. These packages are necessary to get your system set up with the required software and utilities. ⚙️
 
-## 🚀 Installation Guide
-
-### 1. Install Dependencies
-
-Before installing the dotfiles, ensure that you have all the required dependencies installed. Run the following command to install the necessary packages:
+Run the following command to install all the necessary dependencies:
 
 ```bash
 sudo apt update
 sudo apt install hyprland waybar kitty neovim fish rofi fonts-nerd-fonts-complete spicetify-cli git
+```
 
-Explanation:
+#### Explanation of Installed Packages:
 
-Hyprland: A Wayland compositor that is fast, efficient, and highly customizable.
+- **Hyprland**: A fast, efficient, and highly customizable Wayland compositor. 🌍
+- **Waybar**: A customizable status bar for Wayland compositors like Hyprland. 📊
+- **Kitty**: A fast and feature-rich terminal emulator. 💻
+- **Neovim**: A modern, extensible version of Vim designed to be better, with enhanced features. 📝
+- **Fish**: A user-friendly interactive shell that offers features like autosuggestions and syntax highlighting. 🐟
+- **Rofi**: A window switcher and application launcher. 🖥️
+- **Fonts**: Nerd fonts provide patched font icons for use with terminals and status bars. 🔤
+- **Spicetify**: A tool for customizing Spotify's user interface. 🎶
 
-Waybar: A customizable status bar for Wayland compositors like Hyprland.
+### Step 2: Clone the Repository
 
-Kitty: A fast and feature-rich terminal emulator.
+Once you have the necessary dependencies installed, the next step is to clone the dotfiles repository to your home directory. 📂
 
-Neovim: A text editor built to improve upon Vim with enhanced features and extensibility.
-
-Fish: A user-friendly interactive shell that offers features like autosuggestions and syntax highlighting.
-
-Rofi: A window switcher and application launcher.
-
-Fonts: Nerd fonts provide patched font icons for use with terminals, status bars, and other tools.
-
-Spicetify: A tool for customizing Spotify.
-
-
-2. Clone the Repository
-
-Clone the dotfiles repository to your home directory:
-
+```bash
 git clone https://github.com/Matt-FTW/dotfiles.git ~/dotfiles
+```
 
-Make sure that you have Git installed before running this command. You can install it via:
+#### Important Notes:
+Make sure that Git is installed on your system. If it is not installed, you can install it by running:
 
+```bash
 sudo apt install git
+```
 
-3. Backup Existing Configurations
+### Step 3: Backup Existing Configurations
 
-It's always a good idea to back up your current configuration before making any changes. This allows you to revert to your previous setup if necessary.
+Before applying the new configurations, it's essential to back up your existing dotfiles. This ensures you can easily revert to your previous setup if anything goes wrong. 💾
 
+```bash
 mkdir -p ~/.config/backup
 cp -r ~/.config/hypr ~/.config/backup/
 cp -r ~/.config/waybar ~/.config/backup/
 cp -r ~/.config/kitty ~/.config/backup/
+```
 
-4. Apply the Dotfiles
+### Step 4: Apply the Dotfiles
 
-Now that you have the repository cloned and your backups in place, apply the dotfiles to your system:
+Now that the repository is cloned, and your backups are safely stored, it's time to apply the dotfiles to your system. 📂➡️📁
 
+```bash
 cp -r ~/dotfiles/.config/* ~/.config/
+```
 
-This will replace existing configuration files with those from the repository. Ensure your backups are safely stored in case you need to revert.
+#### Important Notes:
+- This command will replace your current configuration files with those from the repository
+- These dotfiles include configurations for Hyprland, Waybar, Kitty, Neovim, Fish, and more
 
-5. Set Fish as Default Shell
+### Step 5: Set Fish as the Default Shell
 
-This repository uses Fish as the default shell for the terminal. If you're not using Fish already, you can set it as the default shell by running:
+The dotfiles repository uses Fish as the default shell. Set it as your default shell by running: 🐟
 
+```bash
 chsh -s /usr/bin/fish
+```
 
-After setting Fish as the default shell, close and reopen your terminal to see the changes.
+After setting Fish as the default shell, restart your terminal or log out and log back in to see the changes.
 
-6. Restart Your System
+### Step 6: Restart Your System
 
-To ensure the changes take effect fully, it's recommended to restart your system or log out and back in:
+Once you've applied the dotfiles and set Fish as your default shell, restart your system to ensure all changes take effect. 🔄
 
+```bash
 sudo reboot
+```
 
+## ⚠️ Warnings & Notes
 
----
+- **Backup**: Always back up your existing configurations before applying new dotfiles
+- **Customization**: These configurations are designed to be a general starting point
+- **Troubleshooting**: Check Hyprland logs if issues occur:
+  ```bash
+  cat ~/.config/hypr/hyprland.log
+  ```
+- **Neovim Configuration**: Basic configuration included - explore documentation for customization
 
-⚠️ Warnings & Notes
+## 🎨 Customization (Optional)
 
-Backup: Always back up your existing configurations before applying new dotfiles. If anything goes wrong, you can always restore from the backup.
+### Configuration File Locations:
 
-Customization: The configuration files are designed to be a starting point. Adjust settings specific to your hardware and preferences, such as monitor setup or input configuration.
+- **Hyprland**: `~/.config/hypr/hyprland.conf` - Adjust monitor layout, input devices, and compositor settings 🖥️
+- **Waybar**: `~/.config/waybar/config` - Modify appearance, modules, and system interactions 🌈
+- **Kitty**: `~/.config/kitty/kitty.conf` - Terminal preferences and settings 🖱️
+- **Neovim**: `~/.config/nvim/init.vim` - Editor plugins and configuration ✨
 
-Troubleshooting: If you encounter issues, you can check logs in ~/.config/hypr/hyprland.log for error messages.
+## 🛠️ Troubleshooting
 
+### 1. Hyprland Won't Start
+- Check `~/.config/hypr/hyprland.log` for errors
+- Verify Wayland configuration
 
+### 2. Waybar Display Issues
+- Review `~/.config/waybar/config`
+- Adjust screen resolution settings
 
----
-
-🔧 Customization (Optional)
-
-Adjust configurations for Hyprland, Waybar, Kitty, Neovim, and Fish according to your preferences.
-
-
----
-
-❓ Troubleshooting
-
-1. Hyprland won't start: Check the logs in ~/.config/hypr/hyprland.log.
-
-
-2. Waybar doesn’t show properly: Review and adjust ~/.config/waybar/config.
-
-
-3. Kitty Terminal shows no icons: Install Nerd Fonts if not already installed:
-
+### 3. Missing Terminal Icons
+Install Nerd Fonts:
+```bash
 sudo apt install fonts-nerd-fonts-complete
+```
 
-
-4. Fish shell not working properly: Ensure Fish is installed and set as the default shell:
-
+### 4. Fish Shell Issues
+Verify installation and default shell:
+```bash
 chsh -s /usr/bin/fish
+```
 
+## 🎉 Conclusion
 
+By following this guide, you should now have a fully functional, aesthetically pleasing, and highly efficient Hyprland + Ubuntu 24.04 setup using these dotfiles. This environment is designed to streamline your workflow, improve productivity, and provide a smooth user experience. 🌟
 
-
----
-
-🔥 Conclusion
-
-Following this guide, you should now have a fully functional, aesthetically pleasing, and efficient Hyprland + Ubuntu 24.04 setup. Enjoy your new environment!
-
-
----
-
-Plain Text Version of the Instructions:
-
-1. Install Dependencies
-
-Before installing the dotfiles, ensure that you have all the required dependencies installed. Run the following command to install the necessary packages:
-
-sudo apt update
-sudo apt install hyprland waybar kitty neovim fish rofi fonts-nerd-fonts-complete spicetify-cli git
-
-Explanation:
-
-Hyprland: A Wayland compositor that is fast, efficient, and highly customizable.
-
-Waybar: A customizable status bar for Wayland compositors like Hyprland.
-
-Kitty: A fast and feature-rich terminal emulator.
-
-Neovim: A text editor built to improve upon Vim with enhanced features and extensibility.
-
-Fish: A user-friendly interactive shell that offers features like autosuggestions and syntax highlighting.
-
-Rofi: A window switcher and application launcher.
-
-Fonts: Nerd fonts provide patched font icons for use with terminals, status bars, and other tools.
-
-Spicetify: A tool for customizing Spotify.
-
-
-2. Clone the Repository
-
-Clone the dotfiles repository to your home directory:
-
-git clone https://github.com/Matt-FTW/dotfiles.git ~/dotfiles
-
-Make sure that you have Git installed before running this command. You can install it via:
-
-sudo apt install git
-
-3. Backup Existing Configurations
-
-It's always a good idea to back up your current configuration before making any changes. This allows you to revert to your previous setup if necessary.
-
-mkdir -p ~/.config/backup
-cp -r ~/.config/hypr ~/.config/backup/
-cp -r ~/.config/waybar ~/.config/backup/
-cp -r ~/.config/kitty ~/.config/backup/
-
-4. Apply the Dotfiles
-
-Now that you have the repository cloned and your backups in place, apply the dotfiles to your system:
-
-cp -r ~/dotfiles/.config/* ~/.config/
-
-This will replace existing configuration files with those from the repository. Ensure your backups are safely stored in case you need to revert.
-
-5. Set Fish as Default Shell
-
-This repository uses Fish as the default shell for the terminal. If you're not using Fish already, you can set it as the default shell by running:
-
-chsh -s /usr/bin/fish
-
-After setting Fish as the default shell, close and reopen your terminal to see the changes.
-
-6. Restart Your System
-
-To ensure the changes take effect fully, it's recommended to restart your system or log out and back in:
-
-sudo reboot
-
-
----
-
-This version of the file includes everything in both markdown format and plain text, ensuring all information is accessible in both styles for convenience. Let me know if you need further adjustments!
-
+Enjoy your new setup! 🎊

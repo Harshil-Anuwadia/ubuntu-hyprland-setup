@@ -1,4 +1,4 @@
-# 🎮 The Ultimate (and Fun!) Guide to Installing Hyprland on Ubuntu
+# 🎮 The Ultimate (and Fun!) Guide to Installing Hyprland Dotfiles on Ubuntu
 ### *AKA: How to Make Your Ubuntu Look So Good It'll Make MacOS Users Jealous* 
 
 <div align="center">

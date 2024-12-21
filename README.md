@@ -1,341 +1,282 @@
-# 🎮 The Ultimate (and Hilariously Endless) Guide to Installing Hyprland Dotfiles on Ubuntu
-### *AKA: How to Transform Your Boring Ubuntu into a Digital Wonderland—No Fairy Godmother Required!*
+# 🎮 The Ultimate (and Hilariously Infinite) Guide to Installing Hyprland Dotfiles on Ubuntu
+### *AKA: How to Fool Your Friends into Thinking You’re a Tech Wizard with Superpowers* 
 
 <div align="center">
 
-![Jumping for Joy](https://media.giphy.com/media/l4FGusZ5L62C8XySu/giphy.gif)
+[![Made with hearts and memes](https://img.shields.io/badge/Made%20with-♥%20&%20Memes-pink.svg?style=for-the-badge)](/)
+[![Powered by Coffee](https://img.shields.io/badge/Powered%20by-Coffee%20☕-brown.svg?style=for-the-badge)](/)
+[![Works on my machine](https://img.shields.io/badge/Works-On%20My%20Machine-success.svg?style=for-the-badge)](/)
+[![Approved by Cats](https://img.shields.io/badge/Approved%20by-Cats%20😺-orange.svg?style=for-the-badge)](/)
+[![Time to Rice](https://img.shields.io/badge/Time%20to-Rice%20🍚-blue.svg?style=for-the-badge)](/)
 
-[![Made with coffee and memes](https://img.shields.io/badge/Made%20with-☕%20&%20Memes-pink.svg?style=for-the-badge)](/)
-[![Powered by Wine and Magic](https://img.shields.io/badge/Powered%20by-Wine%20and%20Magic-red.svg?style=for-the-badge)](/)
-[![100% Failure Rate](https://img.shields.io/badge/100%25-Failure%20Rate%20Guaranteed-yellow.svg?style=for-the-badge)](/)
+*Prepare yourself for an adventure that will make you giggle, gasp, and question your life choices—for the better!* 🚀
 
-*Buckle up and prepare for the rollercoaster of limitless humor, tech wizardry, and the journey of a lifetime!*
+💥 **Warning:** This guide is 157% funnier than any installation guide ever written, possibly resulting in side-splitting laughter, extreme DIY enthusiasm, and tears of joy. Please proceed with a heart full of glee and maybe a tiny bit of caution!
 
-💥 **Warning:** Proceed with caution as this guide may lead to excessive laughter, spontaneous memes, and cranky cats that want your attention.
-
-## 📖 Hilariously Endless Table of Contents 
-1. [🤔 What on Earth Is This?](#-what-on-earth-is-this)
-2. [🎯 Prerequisites: Your Checklist to Awesomeness](#-prerequisites-your-checklist-to-awesomeness)
-3. [🛠️ The Installation Dance-Off!](#️-the-installation-dance-off)
-4. [🎨 Customize Like a Mad Scientist!](#-customize-like-a-mad-scientist)
-5. [🆘 Troubleshooting: Fixing Errors While Living Your Best Life](#-troubleshooting-fixing-errors-while-living-your-best-life)
-6. [🎉 The Grand Finale: Show Off Your Masterpiece!](#-the-grand-finale-show-off-your-masterpiece)
-7. [🃏 Ultimate Meme Templates and GIFs Galore](#-ultimate-meme-templates-and-gifs-galore)
-8. [😂 Bonus: Funny Commands to Make You Chuckle](#-bonus-funny-commands-to-make-you-chuckle)
+## 📖 Hilariously Fun Table of Contents 
+- [🤔 What on Earth Is This?](#-what-on-earth-is-this)
+- [🎯 Prerequisites: Your Checklist to Awesomeness](#-prerequisites-your-checklist-to-awesomeness)
+- [🛠️ The Installation Dance Party!](#️-the-installation-dance-party)
+- [🎨 Customize Like a Mad Scientist!](#-customize-like-a-mad-scientist)
+- [🆘 Troubleshooting: Fixing Errors While Being Fabulous](#-troubleshooting-fixing-errors-while-being-fabulous)
+- [🎉 The Grand Finale: Show Off Your Masterpiece!](#-the-grand-finale-show-off-your-masterpiece)
 
 ## 🤔 What on Earth Is This? 
 
-Hey there, magnificent tech explorer! 🎩🕵️‍♂️
+Hey there, ultimate tech enthusiast! 👋 
 
-Sick of the same old dusty desktop? Want to transform your Ubuntu into a dazzling technological marvel that rivals the computational gods? Look no further! This guide is your secret weapon to installing the marvelous Hyprland dotfiles, turning your terminal from “meh” to “WOWZA!” 🌈✨ 
+Stuck with a boring desktop? Want to make it look *so* dazzling that your computer will get its own Instagram account? Well, you’ve found your treasure map to a radiant Ubuntu 24.04! 🗺️✨ 
+
+This guide will help you install the fabulous Hyprland dotfiles, transforming your humble machine from a sad potato to a sparkling star of the universe! The best part? You’ll have a blast (and maybe a giggle) while doing it!
 
 ### 🎁 What You’ll Gain:
-- 🖥️ A desktop so gorgeous even the reflections in your screen will applaud you.
-- 🚀 Smoother transitions than an Olympic ice skater!
-- 🎨 Colors that make your eyes feel like they’re in a rainbow factory explosion.
-- ⚡ Performance faster than a cheetah on roller skates.
-- 🧠 Bragging rights that’ll have your friends shaking their heads in disbelief!
-
-<div align="center">
-
-![Excited Cats](https://media.giphy.com/media/JIXSXG8gP9sL5taG9Y/giphy.gif)
-
-</div>
+- 🖥️ A desktop so sexy even unicorns would blush.
+- 🚀 Animations smoother than your most dramatic dance moves.
+- 🎨 Colors so vivid, they’ll steal the show at a rainbow festival. 🌈
+- ⚡ Performance that’ll make your laptop feel like it drank 8 shots of espresso.
+- 🧠 Unlimited bragging rights—and maybe a fan club!
 
 ## 🎯 Prerequisites: Your Checklist to Awesomeness
 
 ### System Requirements:
-- 🐧 Ubuntu 24.04 (Windows users: time to kick it up a notch!)
-- 🧠 A sense of humor (seriously—bring your best dad jokes).
-- ⌨️ A keyboard (the more colorful, the better!).
-- 🖱️ Mouse (or a highly trained pet—your choice).
-- ☕ Caffeine or your preferred energy booster (the weirder, the more fun!).
+- 🐧 Ubuntu 24.04 (Sorry, Windows users! Time for a glow-up!)
+- 🧠 A sense of humor (your secret weapon!)
+- ⌨️ A working keyboard (bonus points if it can type without squeaking).
+- 🖱️ Mouse (optional; practice your super-quick keyboard skills!)
+- ☕ Caffeine of choice (energy drinks? Coffee? Pure adrenaline?)
 
 ### Experience Level Required:
-- 🟢 Can turn on a computer (this is important!).
-- 🟡 Can type commands without breaking into a sweat (unless it’s from laughing).
-- 🔴 A degree in quantum physics is *NOT* required, but feel free to impress everyone with your mysterious allure. 
+- 🟢 Can turn on a computer (do you see the power button?)
+- 🟡 Can type commands while maintaining a cool smile (don’t stress, we got this).
+- 🔴 A degree in quantum physics (totally not required, but if you have it, hey, why not show off?)
 
-## 🛠️ The Installation Dance-Off!
+## 🛠️ The Installation Dance Party!
 
-### Step 0: Pre-Installation Pep Talk! 🏃‍♂️
-First, let’s vibe:
-1. Deep breath in (and out, like you’re preparing for a yoga class).
-2. Backup your data (you know, just in case—a heroic move!).
-3. Grab your favorite beverage—coffee, tea, or a suspicious green concoction?
-4. Tell your family you love them (preemptively, for when you get lost in tech).
+### Step 0: Prepare Your Mind and Heart! 🏃‍♂️
+First, let’s pump ourselves up:
+1. Deep breath in… and out (just like yoga, but way cooler).
+2. Make a backup (you’ll thank yourself later—trust!)
+3. Get your favorite drink—coffee or whatever potion fuels your creativity.
+4. Tell your family you love them (just in case they need to come to rescue you if something goes hilariously wrong).
 
-### Step 1: The Grand Package Installation Dance! 💃 
+### Step 1: The Grand Package Installation Madness! 📦
 
-**Alert:** Crank up your favorite song because we’re in for a party! Let’s wake up that sleepy terminal:
+**Alert:** Get ready for the most exhilarating installation ride of your life! Open that terminal (it’s cooler than that time you tried to teach your cat to fetch):
 
 ```bash
-# Refresh your system like a morning coffee reboot:
+# Time for a little system refresh—think of it as a refreshing shower:
 sudo apt update && sudo apt upgrade -y 
 
-# Now let’s install ALL THE AMAAAzing THINGS! 🎊 
+# Now let's install ALL THE THINGS! 🎉 
 sudo apt install -y \
-    hyprland `# For spinning window sorcery` \
-    waybar `# To give that taskbar a makeover` \
-    kitty `# The cutest terminal this side of the internet` \
-    neovim `# The terminal editor that will test your common sense` \
-    fish `# The friendliest shell—like a natural born schmoozer` \
-    rofi `# Your personal genie for launching apps & wishes` \
-    dunst `# For notifications that feel like warm hugs` \
-    fonts-nerd-fonts-complete `# Because life is too short for boring fonts` \
-    spicetify-cli `# Transform your Spotify into a glowing treasure` \
-    git `# Keep everything together like duct tape` \
-    brightnessctl `# Write your own brightness rules, like a boss` \
-    network-manager `# The glue that keeps you connected` \
-    pulseaudio `# Groovy beats are coming your way` \
-    pavucontrol `# The DJ of audio management` \
-    bluez `# Because Bluetooth is magic no one fully understands` \
-    blueman `# Your lifeline for Bluetooth connection` \
-    thunar `# File managing like a pro!` \
-    grim `# Snapshots of your glorious adventures` \
-    slurp `# Screen selection more precise than a sushi chef` \
-    wl-clipboard `# Clipboard wizardry for all your needs`
+    hyprland `# For fabulous window management` \
+    waybar `# To make your desktop bar shine brighter` \
+    kitty `# The cutest terminal ever (no kittens were harmed)` \
+    neovim `# For the brave souls who love a challenge` \
+    fish `# The friendliest shell—it's swimming in positivity` \
+    rofi `# Your personal magician for launching apps` \
+    dunst `# For notifications that whisper sweet nothings` \
+    fonts-nerd-fonts-complete `# Because normal fonts are soooo boring` \
+    spicetify-cli `# Let’s give Spotify a glow-up` \
+    git `# Because we don’t want to live in a cave` \
+    brightnessctl `# Control brightness like you control your life` \
+    network-manager `# Connectivity is key to not being stranded!` \
+    pulseaudio `# Jamming out to those sweet tunes` \
+    pavucontrol `# Control audio like the maestro you are` \
+    bluez `# The magical world of Bluetooth` \
+    blueman `# Your virtual friend for managing Bluetooth` \
+    thunar `# File managing should be fun, am I right?` \
+    grim `# Snapshots of your adventures` \
+    slurp `# Selecting screen areas faster than a ninja` \
+    wl-clipboard `# Clipboard magic, not spooky at all`
 ```
 
-> 🎵 *Choreograph some dance moves while that installs! You may just invent the next TikTok dance sensation!*
+> 🎵 *While you’re waiting for all that to install, why not belt out your favorite karaoke tune or improvise a dance routine?*
 
-### Step 2: Backing Up Like a Prepare-for-the-Worst Genius! 💾
+### Step 2: Backing Up Like a Slightly Paranoid Pro! 💾
+
+Because breaking things can be fun, fixing them isn’t. Let’s be the smart one:
 
 ```bash
-# Create your backup fortress—behold the digital safety net!
+# Time to create the backup of all backups (because you’re a genius!):
 mkdir -p ~/.config/backup-before-awesomeness
 
-# Back it up with flair!
+# Backing up ALL the things!
 for dir in hypr waybar kitty nvim fish rofi dunst; do
     if [ -d "$HOME/.config/$dir" ]; then
-        echo "📦 Backing up $dir configuration... Staying safe!"
+        echo "📦 Backing up $dir configuration..."
         cp -r "$HOME/.config/$dir" "$HOME/.config/backup-before-awesomeness/"
     else
-        echo "🤔 No $dir config found; let's not tell anyone—secret safe!"
+        echo "🤔 No $dir config found, skipping... (Don’t worry, it’s okay!)"
     fi
 done
-echo "🎉 Backup complete! A round of applause for future you!"
+echo "🎉 Backup complete! Future you is smiling so big right now!"
 ```
 
-### Step 3: Clone Those Glorious Dotfiles Like a Pro! 🦾
+### Step 3: Clone Those Glorious Dotfiles! 🦾
 
 ```bash
-# Grab those dotfiles of magnificence—let’s do this!
-echo "🚀 Gathering all the epic resources!"
+# Let’s scoop up those dotfiles of awesomeness like it’s the last slice of pizza
+echo "🚀 Getting ready for epicness..."
 git clone https://github.com/Matt-FTW/dotfiles.git ~/dotfiles
 
-# Unleash the configuration files!
-echo "📦 Deploying configuration magic!"
+# Deploy the glorious goods!
+echo "📦 Deploying configuration files like a pro!"
 cp -r ~/dotfiles/.config/* ~/.config/
 
-echo "✨ Configuration files deployed! You're ready for intergalactic adventures!"
+echo "✨ Configuration files deployed! You are officially fabulous!"
 ```
 
-### Step 4: Make Fish Your Shell Pal 🐠
+### Step 4: Make Fish Your Shell BFF 🐠
 
-Time to make a shell as friendly as your childhood teddy bear. 
+Now it’s time to switch over to the friendliest shell that ever swam through code:
 
 ```bash
-# Set fish as your default shell—let the good times roll!
+# Set fish as your default shell—let the fishy fest begin!
 chsh -s $(which fish)
 
-# Fish, my dear friend, welcome to the party!
-echo "🐠 Welcome to Fish! Now let’s go catch some commands!"
+# Fish, you were here already...
+echo "🐠 Welcome to Fish shell! You will absolutely love it!"
 ```
 
-### Step 5: The Grand Moment! Get Ready for Liftoff! 🎭
+### Step 5: The Moment of Truth—Lift-Off! 🎭
 
 ```bash
-echo "🔄 Time to restart! Let the digital metamorphosis begin!"
+echo "🔄 Time to restart! Let’s get this party started!"
 sudo reboot
 ```
 
 ## 🎨 Customize Like a Mad Scientist!
 
+Now that you’ve got everything installed, let’s crank up the sass and pizzazz!
+
 ### 🖥️ Hyprland Configuration
 ```bash
-# Let’s take control of your Hyprland configuration!
+# Edit your Hyprland config and unleash your inner tech wizard
 nvim ~/.config/hypr/hyprland.conf
 ```
 
-Some wild ideas for your configurations:
+Here are some wacky configuration ideas:
 ```bash
-# Make windows do wild moves when they open—let’s get funky!
+# Make windows dance like nobody’s watching when they open or close!
 animations {
-    animation=windowsOut,1,10,default,popin 80%
+    animation=windowsOut,1,5,default,popin 80%
 }
 
-# Enable transitions smoother than your best-day-ever stories!
+# Add smooth transitions, like sliding into a DMs but way cooler!
 animation=workspaces,1,5,default,slidefade
 ```
 
-### 🎨 Color Schemes Awesomeness!
-Want your desktop to look like:
-- 🌈 A fabulous unicorn’s dreams?
-- 🌙 An enchanted forest with sparkly fairy dust?
-- 🌺 A tropical paradise with delicious coconut water?
-- 👾 A retro-gaming paradise brought back to life?
+### 🎨 Color Schemes Abound!
+Want your desktop to resemble:
+- 🌈 A vibrant cosmic explosion?
+- 🌙 A dreamy paradise where rainbows rule?
+- 🌺 A serene Japanese garden with a cyber twist?
+- 👾 A blast from the retro arcade past?
 
-Discover themes at `~/.config/hypr/themes/`. Let your creativity run wild! 
+Explore the themes directory: `~/.config/hypr/themes/` and go wild! Choose your own adventure!
 
-## 🆘 Troubleshooting: Fixing Errors While Living Your Best Life
+## 🆘 Troubleshooting: Fixing Errors While Being Fabulous
 
-### Common Issues (and how to fix them while having a comedy skit in your mind):
+### Common Issues (and How to Fix Them Without Losing Your Mind)
 
-#### 1. Help! My Screen is Blacker than My Coffee! 😱
+#### 1. Help! My Screen is Black Like My Soul! 😱
 ```bash
-# Check logs, it’s like being a tech detective:
+# Check those logs; they hide secrets like a movie plot twist:
 cat ~/.config/hypr/hyprland.log | grep ERROR
 
-# Or, let’s not overthink it—sometimes rebooting works wonders!
-sudo reboot 
+# Or try the classic time-tested workaround:
+sudo reboot  # Works like magic more often than not!
 ```
 
-#### 2. My Terminal is a Mess—Like My Last Relationship! 🤪
+#### 2. My Terminal Looks Like a Picasso Painting Gone Wrong! 🤪
 ```bash
-# Ensure fonts are installed and smiling:
+# Ensure your fonts are installed like gourmet treats:
 fc-cache -fv
 
-# If issues persist, let’s reinstall those nerd fonts:
+# If that doesn’t work, let’s reinstall those nerd fonts:
 sudo apt install --reinstall fonts-nerd-fonts-complete
 
-# If all fails, try convincing it with charm:
-echo "Time for some pixel therapy—let’s explore new fonts!" 🎨
+# If that still doesn't work… then we need to get creative:
+echo "Time for some font therapy—let’s explore new fonts!" 🎨
 ```
 
-#### 3. No Way—My Entire Setup is Out of Whack! 😭
-Take a collective deep breath—you got this! 
-1. Inhale peace, exhale chaos 🧘‍♂️
-2. Grab another coffee (seriously—you deserve it!).
-3. Check those logs 📝—your personal reality show.
-4. Ask for help in the community—those nerds are full of wisdom! 🤝
-5. Reboot—sometimes you just need to press the reset button on life! 🔄
+#### 3. Help! NOTHING is Working! 😭
+Take a deep breath—this is *not* as bad as it seems! 
+1. Breathe deeply, channel your inner Zen 🧘‍♂️
+2. Grab coffee (because, why not? ☕)
+3. Check those logs 📝—they’re like a bad soap opera.
+4. Ask for help in the community—your new friends are out there! 🤝
+5. Reboot; remember the golden rule of troubleshooting 🔄.
 
-#### 4. My Screen is Flicking Like It’s the Disco Era! 🕺
+#### 4. My Screen is Flickering Like My Ex’s Heart! 🕺
 ```bash
-# Check if drivers need some love:
+# Check if your video drivers need a makeover:
 sudo ubuntu-drivers devices
 
-# Install shiny new drivers available:
+# If there's a shiny new driver available, install it:
 sudo ubuntu-drivers install
 ```
 
-#### 5. App Launchers are Launching but Have Cold Feet! 🍔
+#### 5. Application Launchers Are Launching but Not Showcasing! 🍔
 ```bash
-# Sometimes they need a little PR talk. 
-# Try to reinstall the application:
+# Sometimes they just need a snack between launching and lunching. 
+# Try reinstalling the application:
 sudo apt install --reinstall [application-name-here]
 
-# If that fails, embrace the drama and declare:
-# "I need to reboot, or I’ll just cry into my sandwich!" 🍔💔
+# If that fails, roll your eyes dramatically and proclaim:
+# "I need a reboot, or a donut—let’s see which fixes it!" 🍩
 ```
 
-### 🃏 Ultimate Meme Templates and GIFs Galore 
+### 🎉 Bonus Hilarious Tips & Tricks!
+- **Wacky Terminal Tricks**: Give your terminal a makeover with weird ASCII art! Install `cowsay` and enjoy your shell speaking in quotes like it just walked off a movie set.  
+```bash
+sudo apt install cowsay
+cowsay "Just installed an awesomely bad-ass desktop!"
+```
 
-Want to level up how you communicate your tech struggles and victories? Here are some classic meme templates you can use whenever your friends are boaster-castin’ nonsense about their setups. 
+- **Magic Command**: Ever wanted to make a random joke? Install `cowsay` along with `fortune`—get ready for smiles!
+```bash
+sudo apt install fortune cowsay
+fortune | cowsay
+```
 
-| Meme Theme                | Template Link                                                          |
-|---------------------------|------------------------------------------------------------------------|
-| **Disaster at 3 AM** | ![This is Fine](https://media.giphy.com/media/3o7btN5KkXAUSMxyug/giphy.gif) – Example caption: "When you realize you forgot to backup." |
-| **Is This a Meme?**  | ![Is This a Pigeon?](https://i.imgflip.com/1mnx7d.jpg) – Perfect for when you crash your desktop yet again. |
-| **Roll Safe**         | ![Roll Safe](https://i.imgur.com/SaxsIKc.jpg) – Use this to remind your friends why they should back up! |
-| **Success Kid**       | ![Success Kid](https://media.giphy.com/media/TlGqybpPikamG/giphy.gif) – Celebrate your successful install.  |
-| **The Rock Driving**   | ![The Rock](https://media.giphy.com/media/3o7btKX5e9TTWD26a0/giphy.gif) – "When you ask your tech support if they have any more tips to help you!" |
+- **Dance Party**: Play `cmatrix` to create a Matrix-inspired terminal screensaver! Watch Neo dodge commands in style!
+```bash
+sudo apt install cmatrix
+cmatrix
+```
 
-### Fun GIFs for Exciting Moments:
-
-- **When the installation is over and everything works flawlessly:**
-
-![Success GIF](https://media.giphy.com/media/l1J9Lhsc3o643m3c4/giphy.gif)
-
-- **When your friend asks you how to fix their tech problem:**
-
-![It's Not My Problem](https://media.giphy.com/media/26gsqHNA7DJKyIyFE/giphy.gif)
-
-- **When you finally get to show off your setup:**
-
-![Look at Me GIF](https://media.giphy.com/media/78ZcQdZpSZMOc/giphy.gif)
-
-- **Every time your system starts glitching:**
-
-![Oh No You Didn't](https://media.giphy.com/media/d2lcHJTG5TsyUx1y/giphy.gif)
+- **Embrace the Nerdiness**: Use `neofetch` for a funky display of your terminal and system info. It might even help you pick up virtual chicks! 
+```bash
+sudo apt install neofetch
+neofetch
+```
 
 ## 🎉 The Grand Finale: Show Off Your Masterpiece!
 
 ### 🎯 You Did It!
-Stand up, take a bow! 🎉 You’ve crafted a technical marvel—whet your appetite for further greatness! Here’s a no-fail checklist of achievement:
+Congratulations! 🎉 You've transformed your drab Ubuntu into a dazzling wonderland of tech glory! Here’s a slightly exaggerated achievement list:
 
-- [x] Installed a smorgasbord of the finest tech.
-- [x] Customized like tech royalty.
-- [x] Stunned everyone (your cat is in complete awe!).
-- [x] Claimed the title of Coolest Desktop in the Universe.
-- [x] Mastered your glitches like a superhero.
-- [x] Survived this installation whirligig with laughter!
+- [x] Installed amazing software while singing (or dancing) your heart out.
+- [x] Customized like a pro—prepare for applause!
+- [x] Stunned all your friends (and probably your cat).
+- [x] Crafted the coolest desktop in the galaxy.
+- [x] Juggled error fixes and celebrated every tiny win.
+- [x] Survived this roller-coaster ride of installation fun!
 
 ### 🤝 Need More Help?
-- 📺 Check out hilarious Linux tutorial videos (seriously, beat those drum rolls).
-- 💬 Join supportive and chaotic Linux communities on Reddit—make friends, share memes!
-- 🐱 Star the original dotfiles repo; love and unity!
-- 🎮 Show off your setup on r/unixporn and bask in the glory of compliments!
+- 📺 Check out hilarious Linux rice videos on YouTube—bound to make you smile!
+- 💬 Join the Linux community on Reddit for memes, wisdom, and your new best friends.
+- 🐱 Star the original dotfiles repository; share the love! 
+- 🎮 Flex your setup on r/unixporn and bask in the glory!
 
 ### 🙏 Special Thanks To:
-- ☕ Coffee (for keeping the magic alive!)
-- 🐧 The Linux community (always the best supportive crew!)
-- 🎨 The original dotfiles creator (you’re a tech wizard!)
-- 🤖 The Copy-Paste Function (our secret hero!)
-- 💝 You, for making it this far!
-
----
-
-## 😂 Bonus: Funny Commands to Make You Chuckle
-
-Need some humor in your terminal? Try these funny commands for a good laugh:
-
-1. **Cowsay** (Because who doesn’t like a talking cow?):
-   ```bash
-   sudo apt install cowsay
-   cowsay "I’m not moo-ving until you install Hyprland!"
-   ```
-
-   ![Cowsay](http://i.imgur.com/Zc7A5n5.png)
-
-2. **Fortune Cookie** (Random wisdom for you!):
-   ```bash
-   sudo apt install fortune
-   fortune | cowsay
-   ```
-
-   ![Fortune](https://media.giphy.com/media/3o6Zt2q3Lzel2f4oVq/giphy.gif)
-
-3. **Sl command** (Because typing "ls" isn’t amusing enough):
-   ```bash
-   sudo apt install sl
-   sl
-   ```
-   ![Train](https://media.giphy.com/media/lX0ajxkw8G4Xm/giphy.gif)
-
-4. **Toilet** (Text art with boldness):
-   ```bash
-   sudo apt install toilet
-   toilet -f smblock "Hello, Ubuntu!"
-   ```
-
-   ![Toilet Text](https://media.giphy.com/media/l0HlV2gjrSRCCy0bG/giphy.gif)
-
-5. **WTF** (The command you never knew you wanted):
-   ```bash
-   sudo apt install wtf
-   wtf
-   ```
-
-   ![WTF](https://media.giphy.com/media/3ohhwI5i3kXnSedB6I/giphy.gif)
-
-6. **LOLcat** (Text and rainbow magic):
-   ```bash
-   sudo apt install lolcat
-   echo "These commands make me smile!" | lolcat
-   ```
-   ![LOLcat](https://media.giphy.com/media/3ov9jUkR0gA6FFrnG4/giphy.gif)
+- ☕ Caffeine (for the inspiration!)
+- 🐧 The Linux community (who always has your back!)
+- 🎨 The original dotfiles creator (you’re a legend in your own right!)
+- 🤖 The Copy-Paste Function (let’s be real; you saved our lives!)
+- 💝 You, for braving this wild adventure!
 
 ---
 
@@ -343,14 +284,25 @@ Need some humor in your terminal? Try these funny commands for a good laugh:
 
 ## 🌟 The END!
 
-*"Your computer is now so cool, it might just apply for modeling gigs on the next big tech catwalk!”*
+*"Your computer is now officially cooler than your friend's MacBook and could start selling merchandise!"*
 
-### 🍕 P.S.
-If anyone asks how you made your desktop look better than theirs, just wink and say:
-> “I’m not saying it was aliens… but they totally gave me their style secrets! 👽😂”
+Remember: With great rice comes great responsibility! 💫
+
+### ⭐ Did this guide help you?
+If it did, give it a star! Spread the joy—and maybe a meme or two!
 
 </div>
 
+## 🎬 P.S.
+If anyone asks how you made your desktop look so sensational, just wink and say:
+> “I’m not saying it was aliens… but they totally hooked me up with the coolest setup! 👽”
+
 ---
 
-Made with 💖, 🎮, and an endless supply of ☕ and 🤣. Now go forth, spread joy, and unveil your spectacular desktop to the world while getting a good laugh each step of the way!
+<div align="center">
+
+Made with 💖, 🎮, and an absurd amount of ☕
+
+*Now go forth, spread joy, and unveil your spectacular desktop to the world while laughing maniacally like a true tech genius!*
+
+</div>

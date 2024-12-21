@@ -1,319 +1,152 @@
-# 🌟 Hyprland Ubuntu Dotfiles
+# 🌟 Hyprland Ubuntu Dotfiles Setup Guide
 
-<div align="center">
+## Introduction
 
-![Hyprland Logo](https://raw.githubusercontent.com/hyprwm/Hyprland/main/assets/header.png)
+This repository contains a collection of dotfiles optimized for a clean, efficient Wayland setup using Hyprland, Waybar, Kitty, Neovim, Fish, and more. These dotfiles are designed to provide a fully functional, aesthetically pleasing, and efficient environment for users of Ubuntu 24.04 with Wayland compositors. The setup aims to enhance productivity and streamline your environment. 🚀
 
-[![Stars](https://img.shields.io/github/stars/yourusername/dotfiles?color=yellow&style=for-the-badge)](https://github.com/yourusername/dotfiles/stargazers)
-[![License](https://img.shields.io/github/license/yourusername/dotfiles?color=green&style=for-the-badge)](./LICENSE)
-[![Issues](https://img.shields.io/github/issues/yourusername/dotfiles?color=red&style=for-the-badge)](https://github.com/yourusername/dotfiles/issues)
+## 🛠️ Installation Guide
 
-*A modern, highly customized environment for Ubuntu 24.04 with Hyprland*
+### Step 1: Install Dependencies
 
-[Features](#-features) •
-[Prerequisites](#-prerequisites) •
-[Installation](#-installation) •
-[Customization](#-customization) •
-[Troubleshooting](#-troubleshooting) •
-[Gallery](#-gallery)
+Before applying the dotfiles, ensure that you have all the required dependencies installed. These packages are necessary to get your system set up with the required software and utilities. ⚙️
 
-</div>
-
-## 📋 Table of Contents
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [Prerequisites](#-prerequisites)
-- [Installation](#-installation)
-- [Configuration](#-configuration)
-- [Customization](#-customization)
-- [Keybindings](#-keybindings)
-- [Troubleshooting](#-troubleshooting)
-- [Gallery](#-gallery)
-- [Contributing](#-contributing)
-- [License](#-license)
-
-## 🌟 Overview
-
-Welcome to my carefully crafted dotfiles repository! This collection is designed to transform your Ubuntu 24.04 system into a modern, efficient, and aesthetically pleasing development environment using Hyprland as the Wayland compositor. These configurations prioritize both functionality and visual appeal, creating a seamless and productive workspace.
-
-### 🎯 Design Philosophy
-
-- **Minimalism**: Clean and distraction-free interface
-- **Efficiency**: Optimized workflows and keyboard-centric controls
-- **Aesthetics**: Modern and cohesive design language
-- **Productivity**: Carefully selected tools and configurations
-
-## ✨ Features
-
-### 🖥️ Core Components
-
-- **Hyprland**: A dynamic tiling Wayland compositor
-- **Waybar**: Highly customizable status bar
-- **Kitty**: Modern, feature-rich terminal emulator
-- **Neovim**: Extensible, powerful text editor
-- **Fish**: User-friendly shell with smart features
-- **Rofi**: Application launcher and window switcher
-- **Dunst**: Lightweight notification daemon
-
-### 🎨 Visual Enhancements
-
-- Custom color scheme based on [Catppuccin](https://github.com/catppuccin/catppuccin)
-- Carefully selected Nerd Fonts for icons and text
-- Smooth animations and transitions
-- Consistent theming across all applications
-
-### 🛠️ Developer Tools
-
-- Preconfigured Neovim with LSP support
-- Git integration and customizations
-- Development-focused terminal utilities
-- Smart code completion and snippets
-
-## 📋 Prerequisites
-
-### System Requirements
-
-- Ubuntu 24.04 LTS
-- Wayland-compatible GPU
-- 4GB RAM (minimum)
-- 20GB free disk space
-
-### Required Packages
+Run the following command to install all the necessary dependencies:
 
 ```bash
-sudo apt update && sudo apt install -y \
-    hyprland \
-    waybar \
-    kitty \
-    neovim \
-    fish \
-    rofi \
-    dunst \
-    git \
-    fonts-nerd-fonts-complete \
-    spicetify-cli \
-    brightnessctl \
-    network-manager \
-    pulseaudio \
-    pavucontrol \
-    bluez \
-    blueman
+sudo apt update
+sudo apt install hyprland waybar kitty neovim fish rofi fonts-nerd-fonts-complete spicetify-cli git
 ```
 
-## 🚀 Installation
+#### Explanation of Installed Packages:
 
-### 1. Backup Existing Configurations
+- **Hyprland**: A fast, efficient, and highly customizable Wayland compositor. 🌍
+- **Waybar**: A customizable status bar for Wayland compositors like Hyprland. 📊
+- **Kitty**: A fast and feature-rich terminal emulator. 💻
+- **Neovim**: A modern, extensible version of Vim designed to be better, with enhanced features. 📝
+- **Fish**: A user-friendly interactive shell that offers features like autosuggestions and syntax highlighting. 🐟
+- **Rofi**: A window switcher and application launcher. 🖥️
+- **Fonts**: Nerd fonts provide patched font icons for use with terminals and status bars. 🔤
+- **Spicetify**: A tool for customizing Spotify's user interface. 🎶
+
+### Step 2: Clone the Repository
+
+Once you have the necessary dependencies installed, the next step is to clone the dotfiles repository to your home directory. 📂
+
+Run this command to clone the repository:
 
 ```bash
-# Create backup directory
+git clone https://github.com/Matt-FTW/dotfiles.git ~/dotfiles
+```
+
+#### Important Notes:
+Make sure that Git is installed on your system. If it is not installed, you can install it by running:
+
+```bash
+sudo apt install git
+```
+
+### Step 3: Backup Existing Configurations
+
+Before applying the new configurations, it's essential to back up your existing dotfiles. This ensures you can easily revert to your previous setup if anything goes wrong. 💾
+
+To create backups of your existing configurations, run these commands:
+
+```bash
 mkdir -p ~/.config/backup
-
-# Backup existing configs
-for dir in hypr waybar kitty nvim fish rofi dunst; do
-    [ -d ~/.config/$dir ] && cp -r ~/.config/$dir ~/.config/backup/
-done
+cp -r ~/.config/hypr ~/.config/backup/
+cp -r ~/.config/waybar ~/.config/backup/
+cp -r ~/.config/kitty ~/.config/backup/
 ```
 
-### 2. Clone Repository
+#### Important Notes:
+This backup procedure will create a safe copy of your existing Hyprland, Waybar, and Kitty configurations.
+
+### Step 4: Apply the Dotfiles
+
+Now that the repository is cloned, and your backups are safely stored, it's time to apply the dotfiles to your system. You can do this by copying the configuration files from the cloned repository to your ~/.config directory. 📂➡️📁
+
+Run the following command to apply the dotfiles:
 
 ```bash
-# Clone dotfiles
-git clone https://github.com/yourusername/dotfiles.git ~/.dotfiles
-
-# Create necessary directories
-mkdir -p ~/.config ~/.local/share/fonts
+cp -r ~/dotfiles/.config/* ~/.config/
 ```
 
-### 3. Install Configurations
+#### Important Notes:
+- This command will replace your current configuration files with those from the repository. Ensure that your backups are safely stored in case you need to revert.
+- These dotfiles include configurations for Hyprland, Waybar, Kitty, Neovim, Fish, and more.
+
+### Step 5: Set Fish as the Default Shell
+
+The dotfiles repository uses Fish as the default shell. If you're not using Fish already, you need to set it as your default shell by running the following command:
 
 ```bash
-# Copy configurations
-cd ~/.dotfiles
-./install.sh
-
-# Set fish as default shell
-chsh -s $(which fish)
+chsh -s /usr/bin/fish
 ```
 
-### 4. Install Fonts
+#### Important Notes:
+The chsh command changes your default shell. Fish is designed to be user-friendly, with features like autosuggestions and syntax highlighting. 🐟
+
+After setting Fish as the default shell, restart your terminal or log out and log back in to see the changes.
+
+### Step 6: Restart Your System
+
+Once you've applied the dotfiles and set Fish as your default shell, it's recommended to restart your system. This will ensure that all environment variables, shell changes, and compositor configurations are loaded correctly. 🔄
+
+To restart your system, run:
 
 ```bash
-# Copy fonts
-cp -r ~/.dotfiles/fonts/* ~/.local/share/fonts/
-fc-cache -f -v
+sudo reboot
 ```
 
-### 5. Apply Configurations
+#### Important Notes:
+Restarting your system ensures that Hyprland, Waybar, and other system changes take effect. It will also start the system with your new configuration.
 
-```bash
-# Reload Hyprland
-hyprctl reload
+## ⚠️ Warnings & Notes
 
-# Restart Waybar
-killall waybar && waybar &
-```
+- **Backup**: Always back up your existing configurations before applying new dotfiles. If something goes wrong, you can restore your old settings.
+- **Customization**: These configurations are designed to be a general starting point. You may need to adjust specific settings based on your hardware and personal preferences.
+- **Troubleshooting**: If Hyprland does not start or behaves unexpectedly, check the logs in the following file:
+  ```bash
+  cat ~/.config/hypr/hyprland.log
+  ```
+- **Neovim Configuration**: The dotfiles include a basic configuration for Neovim. If you're new to Neovim, make sure to explore the documentation for further customization options. You can modify the `~/.config/nvim/init.vim` file to fine-tune your Neovim setup.
 
-## ⚙️ Configuration
+## 🎨 Customization (Optional)
 
-### Directory Structure
+You can customize the configurations to match your specific preferences:
 
-```
-~/.config/
-├── hypr/
-│   ├── hyprland.conf
-│   ├── autostart.conf
-│   └── themes/
-├── waybar/
-│   ├── config
-│   └── style.css
-├── kitty/
-│   └── kitty.conf
-├── nvim/
-│   └── init.vim
-└── fish/
-    └── config.fish
-```
+- **Hyprland**: Adjust the Hyprland configuration file located at `~/.config/hypr/hyprland.conf` to fit your monitor layout, input devices, and compositor settings. 🖥️
+- **Waybar**: The Waybar configuration can be found in `~/.config/waybar/config`. You can modify its appearance, the modules displayed, and how it interacts with other system elements. 🌈
+- **Kitty**: To adjust Kitty terminal settings, open the `~/.config/kitty/kitty.conf` file and make changes based on your preferences. 🖱️
+- **Neovim**: For Neovim, you can further customize your editor by installing plugins and modifying the settings in the init.vim file. ✨
 
-## 🎨 Customization
+## 🛠️ Troubleshooting
 
-### Hyprland Configuration
+### 1. Hyprland Won't Start
+- Check the Hyprland log file located at `~/.config/hypr/hyprland.log` for any error messages or warnings.
+- Ensure your display server (Wayland) is properly configured.
 
-Edit `~/.config/hypr/hyprland.conf`:
+### 2. Waybar Doesn't Display Correctly
+- Check the Waybar configuration in `~/.config/waybar/config`. Some modules might need to be adjusted to fit your screen resolution or personal preferences.
 
-```bash
-# Example customizations
-monitor=eDP-1,1920x1080@60,0x0,1
-input {
-    kb_layout = us
-    follow_mouse = 1
-}
-```
-
-### Waybar Customization
-
-Edit `~/.config/waybar/config`:
-
-```json
-{
-    "position": "top",
-    "modules-left": ["hyprland/workspaces"],
-    "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "network", "battery"]
-}
-```
-
-### Theme Configuration
-
-```bash
-# Set GTK theme
-gsettings set org.gnome.desktop.interface gtk-theme 'Catppuccin'
-
-# Set icon theme
-gsettings set org.gnome.desktop.interface icon-theme 'Papirus'
-```
-
-## ⌨️ Keybindings
-
-### Window Management
-
-| Keybinding | Action |
-|------------|--------|
-| `SUPER + Enter` | Launch terminal |
-| `SUPER + Q` | Close window |
-| `SUPER + Space` | Launch Rofi |
-| `SUPER + [1-9]` | Switch workspace |
-| `SUPER + Shift + [1-9]` | Move window to workspace |
-
-### System Controls
-
-| Keybinding | Action |
-|------------|--------|
-| `SUPER + L` | Lock screen |
-| `SUPER + Shift + Q` | Logout |
-| `SUPER + Shift + R` | Reload config |
-| `SUPER + P` | Power menu |
-
-## 🔧 Troubleshooting
-
-### Common Issues
-
-#### Hyprland Won't Start
-
-1. Check logs:
-```bash
-cat ~/.local/share/hyprland/hyprland.log
-```
-
-2. Verify Wayland compatibility:
-```bash
-echo $XDG_SESSION_TYPE
-```
-
-#### Missing Fonts
-
-Install Nerd Fonts:
+### 3. Kitty Terminal Shows No Icons
+Make sure you have Nerd Fonts installed. If not, you can install them by running:
 ```bash
 sudo apt install fonts-nerd-fonts-complete
 ```
 
-#### Waybar Issues
-
-Reset Waybar:
+### 4. Fish Shell Not Working Properly
+If the Fish shell isn't showing as expected, ensure it is installed and set as the default shell by running:
 ```bash
-killall waybar
-rm -rf ~/.cache/waybar/*
-waybar &
+chsh -s /usr/bin/fish
 ```
 
-## 📸 Gallery
+## 🎉 Conclusion
 
-<div align="center">
+By following this guide, you should now have a fully functional, aesthetically pleasing, and highly efficient Hyprland + Ubuntu 24.04 setup using these dotfiles. This environment is designed to streamline your workflow, improve productivity, and provide a smooth user experience. 🌟
 
-![Screenshot 1](screenshots/desktop.png)
-*Clean Desktop*
-
-![Screenshot 2](screenshots/terminal.png)
-*Terminal Setup*
-
-![Screenshot 3](screenshots/development.png)
-*Development Environment*
-
-</div>
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [Hyprland](https://github.com/hyprwm/Hyprland) team
-- [Catppuccin](https://github.com/catppuccin/catppuccin) theme creators
-- [Waybar](https://github.com/Alexays/Waybar) contributors
-- The entire Linux riceing community
-
-## 📬 Contact
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Reddit: [u/yourusername](https://reddit.com/u/yourusername)
-- Discord: yourusername#0000
+Enjoy your new setup! 🎉
 
 ---
 
-<div align="center">
-
-Made with ❤️ by [Your Name]
-
-If you find this helpful, consider starring the repository ⭐
-
-</div>
+Let me know if you need further assistance or adjustments!

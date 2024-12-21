@@ -8,6 +8,7 @@
 [![Works on my machine](https://img.shields.io/badge/Works-On%20My%20Machine-success.svg?style=for-the-badge)](/)
 [![Approved by Cats](https://img.shields.io/badge/Approved%20by-Cats%20😺-orange.svg?style=for-the-badge)](/)
 [![Time to Rice](https://img.shields.io/badge/Time%20to-Rice%20🍚-blue.svg?style=for-the-badge)](/)
+
 *Your journey to an amazing desktop starts here!* 🚀
 
 </div>

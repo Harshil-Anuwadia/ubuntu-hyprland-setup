@@ -1,4 +1,4 @@
-# 🎮 The Ultimate Guide to Installing Hyprland Dotfiles on Ubuntu
+# 🎮 The Ultimate Guide to Install Hyprland Dotfiles on Ubuntu
 ### *AKA: How to Fool Your Friends into Thinking You’re a Tech Wizard with Superpowers* 
 
 <div align="center">
